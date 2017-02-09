@@ -18,7 +18,9 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/css/pure-min.css",
+        "assets/css/grids-responsive-min.css"
       ],
       "scripts": [],
       "environments": {
