@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ShoppingItem} from '../shopping-item';
 import {ShoppingListDataService} from '../shopping-list-data.service';
+import {CursoComponent} from '../curso/curso.component'
 
 @Component({
   selector: 'shopping-list-3',
@@ -10,6 +11,7 @@ import {ShoppingListDataService} from '../shopping-list-data.service';
 })
 export class ShoppingList3Component implements OnInit {
   newItem: ShoppingItem = new ShoppingItem();
+  curso: string="Angular 4";
 
   constructor(private listService: ShoppingListDataService) { }
 
