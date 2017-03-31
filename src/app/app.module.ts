@@ -8,6 +8,7 @@ import { ShoppingList1Component } from './shopping-list-1/shopping-list-1.compon
 import { ShoppingList2Component } from './shopping-list-2/shopping-list-2.component';
 import { ShoppingList3Component } from './shopping-list-3/shopping-list-3.component';
 import { CursoComponent } from './curso/curso.component';
+import { ContadorComponent } from './contador/contador.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CursoComponent } from './curso/curso.component';
     ShoppingList1Component,
     ShoppingList2Component,
     ShoppingList3Component,
-    CursoComponent
+    CursoComponent,
+    ContadorComponent
   ],
   imports: [
     BrowserModule,

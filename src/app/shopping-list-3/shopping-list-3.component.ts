@@ -34,4 +34,8 @@ export class ShoppingList3Component implements OnInit {
   get items() {
     return this.listService.getAllItems();
   }
+
+  onMudou(event:any){
+    console.log(event);
+  }
 }
